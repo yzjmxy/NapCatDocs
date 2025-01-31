@@ -4,7 +4,7 @@ GITHUB_URL=https://oauth:${NapCat_GH_TOKEN}@github.com/NapNeko/napneko.github.io
 git clone ${GITHUB_URL} temp
 
 rm -rf temp/*
-mv ./NapCatDocs/docs/.vitepress/dist/* temp
+mv ./NapCatDocs/src/.vitepress/dist/* temp
 
 cd ./temp
 
